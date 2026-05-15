@@ -13,7 +13,7 @@ import AdminRoute from "./routes/AdminRoute";
 function App() {
   return (
     <AuthProvider>
-      <BrowserRouter>
+      <BrowserRouter basename={import.meta.env.VITE_APP_BASE_URL}>
         <Navbar />
 
         <Routes>

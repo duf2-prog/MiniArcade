@@ -7,10 +7,10 @@ const NotFoundPage = () => {
                 <FormattedMessage id="notFound.title" />
             </h1>
             <h2 className="page-subtitle">
-                <FormattedMessage id="notFound.subtitle" />
+                <FormattedMessage id="notFound.message" />
             </h2>
-            <button className="primary-button" onClick={() => window.history.back()}>
-                <FormattedMessage id="notFound.goBack" />
+            <button className="navbar-button" onClick={() => window.history.back()}>
+                <FormattedMessage id="notFound.backHome" />
             </button>
         </div>
     );
