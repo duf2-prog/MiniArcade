@@ -18,7 +18,7 @@ const Navbar: React.FC = () => {
 
     const handleLogout = async () => {
         await authService.signOut();
-        window.location.href = "/";
+        navigate("/");
     };
 
     return (
