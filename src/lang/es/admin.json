@@ -1,0 +1,19 @@
+{
+  "title": "Panel de administración",
+  "users": "Usuarios",
+  "games": "Juegos",
+  "username": "Nombre de usuario",
+  "email": "Correo electrónico",
+  "role": "Rol",
+  "gameName": "Nombre del juego",
+  "description": "Descripción",
+  "active": "Habilitado",
+  "inactive": "Deshabilitado",
+  "actions": "Acciones",
+  "enable": "Habilitar",
+  "disable": "Deshabilitar",
+  "makeUser": "Hacer Usuario",
+  "makeAdmin": "Hacer Administrador",
+  "delete": "Eliminar",
+  "total": "Total"
+}

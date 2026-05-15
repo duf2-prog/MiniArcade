@@ -1,0 +1,17 @@
+{
+  "play": "Play",
+  "start": "Start!",
+  "time": "Time",
+  "score": "Score",
+  "finished": "Game Finished!",
+  "scoreSaved": "Your score ({score}) has been saved.",
+  "playAgain": "Play Again",
+  "click": "CLICK!",
+  
+  "clicker_challenger.name": "Clicker Challenger",
+  "clicker_challenger.description": "How many times can you click in 10 seconds?",
+  
+  "reaction_test.name": "Reaction Test",
+  "reaction_test.description": "How fast are your reflexes?",
+  "reaction_test.wait": "Wait..."
+}

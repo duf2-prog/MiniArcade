@@ -1,0 +1,433 @@
+@import "tailwindcss";
+
+@layer components {
+
+    .action-btn {
+        @apply px-2 py-1 rounded text-xs font-bold transition text-center;
+        min-width: 70px;
+        border: 1px solid var(--arcade-green-light);
+        box-shadow: 0 0 6px var(--arcade-green-20);
+    }
+
+    .action-toggle {
+        background: var(--arcade-green-20);
+        color: var(--arcade-green-light);
+    }
+    .action-toggle:hover {
+        background: var(--arcade-green-light);
+        color: black;
+    }
+
+    .action-role {
+        background: var(--arcade-blue-20);
+        border-color: var(--arcade-blue-light);
+        color: var(--arcade-blue-light);
+        box-shadow: 0 0 6px var(--arcade-blue-20);
+    }
+    .action-role:hover {
+        background: var(--arcade-blue-light);
+        color: black;
+    }
+
+    .action-delete {
+        background: var(--arcade-red-20);
+        border-color: var(--arcade-red);
+        color: var(--arcade-red);
+        box-shadow: 0 0 6px var(--arcade-red-40);
+    }
+    .action-delete:hover {
+        background: var(--arcade-red);
+        color: white;
+    }
+
+    .admin-cards {
+        @apply grid grid-cols-1 md:grid-cols-2 gap-6 mt-6;
+    }
+
+    .admin-card {
+        @apply p-5 rounded-lg cursor-pointer transition text-center;
+        background: var(--arcade-bg);
+        border: 1px solid var(--arcade-green-light);
+        box-shadow: 0 0 12px var(--arcade-green-25);
+    }
+
+    .admin-card:hover {
+        background: var(--arcade-green-10);
+        box-shadow: 0 0 18px var(--arcade-green-30);
+    }
+
+    .admin-card h2 {
+        @apply text-xl font-bold mb-1;
+        color: var(--arcade-green-light);
+        text-shadow: 0 0 8px var(--arcade-green);
+    }
+
+    .admin-card p {
+        color: var(--arcade-green-soft);
+    }
+
+    .admin-table {
+        @apply mt-10 flex justify-center;
+    }
+
+    .btn-primary {
+        @apply w-full py-2 rounded font-bold text-white transition;
+        background: var(--arcade-green);
+        border: 2px solid var(--arcade-green-light);
+        box-shadow: 0 0 10px var(--arcade-green);
+    }
+
+    .btn-primary:hover {
+        background: var(--arcade-green-light);
+        box-shadow: 0 0 15px var(--arcade-green-soft);
+    }
+
+    .card {
+        @apply rounded-lg p-5 transition;
+        background: var(--arcade-bg);
+        border: 1px solid var(--arcade-green-light);
+        box-shadow: 0 0 12px var(--arcade-green-25);
+    }
+
+    .card-description {
+        color: var(--arcade-green-soft);
+    }
+
+    .card-play-button {
+        @apply block w-full text-center py-2 rounded mt-4 font-bold transition;
+        background: var(--arcade-green);
+        border: 2px solid var(--arcade-green-light);
+        box-shadow: 0 0 10px var(--arcade-green);
+    }
+
+    .card-play-button:hover {
+        background: var(--arcade-green-light);
+        box-shadow: 0 0 15px var(--arcade-green-soft);
+    }
+
+    .card-table {
+        @apply my-4;
+        border-top: 1px solid var(--arcade-green-20);
+        padding-top: 1rem;
+    }
+
+    .card-title {
+        @apply text-xl font-semibold mb-1;
+        color: var(--arcade-green-light);
+        text-shadow: 0 0 8px var(--arcade-green);
+    }
+
+   .clicker-button {
+        @apply text-3xl font-bold py-6 px-10 rounded-lg transition text-white;
+        background: var(--arcade-pink);
+        border: 3px solid white;
+        text-shadow: 0 0 6px white;
+        box-shadow: 0 0 10px var(--arcade-pink), 0 0 20px var(--arcade-pink);
+    }
+
+
+    .clicker-button:active {
+        transform: scale(0.95);
+    }
+
+    .col-nombre {
+        width: 18%;
+    }
+
+    .col-email {
+        width: 20%;
+    }
+
+    .col-rol {
+        width: 10%;
+    }
+
+    .col-activo {
+        width: 15%;
+    }
+
+    .col-actions {
+        width: 37%;
+    }
+
+    .countdown {
+        @apply flex justify-center items-center mb-5;
+    }
+
+    .countdown-number {
+        @apply text-6xl font-bold;
+        color: var(--arcade-yellow);
+        text-shadow: 0 0 10px var(--arcade-yellow), 0 0 20px var(--arcade-yellow);
+        animation: countdown-pop 1s ease-out forwards;
+    }
+
+    @keyframes countdown-pop {
+        0% { transform: scale(0.2); opacity: 0; }
+        50% { transform: scale(1.3); opacity: 1; }
+        100% { transform: scale(1); }
+    }
+    
+
+    .form-error {
+        @apply mt-4 text-sm font-semibold;
+        color: var(--arcade-red);
+        text-shadow: 0 0 6px var(--arcade-red-60);
+    }
+
+    .form-grid-2 {
+        @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+    }
+
+    .form-section {
+        @apply flex flex-col;
+    }
+
+    .game-container {
+        @apply flex flex-col items-center mt-6;
+    }
+
+    .game-finished {
+        @apply mt-6 p-6 rounded-lg text-center;
+        background: rgba(255, 255, 255, 0.08);
+        border: 2px solid var(--arcade-yellow);
+        animation: finished-fade 0.5s ease-out;
+    }
+
+    .game-finished h3 {
+        @apply text-2xl font-bold mb-2;
+        color: var(--arcade-yellow);
+        text-shadow: 0 0 10px var(--arcade-yellow);
+    }
+
+    .game-finished p {
+        @apply text-lg;
+        color: var(--arcade-cyan);
+        text-shadow: 0 0 6px var(--arcade-cyan);
+    }
+
+    @keyframes finished-fade {
+        from { opacity: 0; transform: translateY(10px); }
+        to { opacity: 1; transform: translateY(0); }
+    }
+
+    .info-text {
+        @apply text-lg font-bold mb-2;
+        color: var(--arcade-green-soft);
+        text-shadow: 0 0 6px var(--arcade-green-soft);
+    }
+
+    .input-field {
+        @apply w-full mb-3 p-2 rounded text-white;
+        background: var(--arcade-bg);
+        border: 1px solid var(--arcade-green-light);
+    }
+
+    .input-field:focus {
+        border-color: var(--arcade-green);
+        box-shadow: 0 0 10px var(--arcade-green);
+        outline: none;
+    }
+
+    .lang-button {
+        @apply px-3 py-1 rounded text-sm;
+        background: var(--arcade-bg-light);
+        border: 1px solid var(--arcade-green-light);
+        color: var(--arcade-green-light);
+        cursor: pointer;
+    }
+
+    .lang-option {
+        color: var(--arcade-green-soft);
+        cursor: pointer;
+    }
+
+    .lang-option:hover {
+        background: var(--arcade-green-light);
+        color: white;
+    }
+
+    .lang-option-active {
+        background: var(--arcade-green-20);
+        color: white;
+    }
+
+    .lang-options {
+        @apply absolute mt-1 w-full rounded text-sm z-50;
+        background: var(--arcade-bg);
+        border: 1px solid var(--arcade-green-light);
+        box-shadow: 0 0 12px var(--arcade-green-20);
+    }
+
+    .link {
+        @apply text-sm font-semibold transition;
+        color: white;
+    }
+
+    .link:hover {
+        color: var(--arcade-green-light);
+        text-shadow: 0 0 6px var(--arcade-green);
+    }
+
+    .modal-container {
+        @apply fixed inset-0 flex items-center justify-center p-4;
+    }
+
+    .modal-overlay {
+        background: var(--arcade-bg-60);
+    }
+
+    .modal-panel {
+        @apply w-full max-w-md rounded p-6 transition;
+        background: var(--arcade-bg);
+        border: 1px solid var(--arcade-green-light);
+        box-shadow: 0 0 20px var(--arcade-green-20);
+    }
+
+    .navbar {
+        background: var(--arcade-bg);
+        border-bottom: 1px solid var(--arcade-green-light);
+        box-shadow: 0 0 12px var(--arcade-green-20);
+    }
+
+    .navbar-avatar {
+        @apply w-8 h-8 rounded-full object-cover mr-1;
+        border: 1px solid var(--arcade-green-light);
+        box-shadow: 0 0 8px var(--arcade-green-20);
+    }
+
+    .navbar-button {
+        @apply px-4 py-1 rounded text-xs font-bold text-white transition;
+        background: var(--arcade-green);
+        border: 1px solid var(--arcade-green-light);
+        box-shadow: 0 0 10px var(--arcade-green-20);
+    }
+
+    .navbar-button:hover {
+        background: var(--arcade-green-light);
+        box-shadow: 0 0 15px var(--arcade-green-soft);
+    }
+
+    .navbar-container {
+        @apply max-w-6xl mx-auto flex items-center px-4 py-3 gap-6;
+    }
+
+    .page-container {
+        @apply w-full max-w-5xl mx-auto px-4 py-10;
+    }
+
+    .page-empty {
+        @apply text-center text-gray-400 text-sm;
+        color: var(--arcade-green-soft);
+    }
+
+    .page-grid {
+        @apply grid grid-cols-1 md:grid-cols-2 gap-6;
+    }
+
+    .page-loading {
+        @apply text-sm;
+        color: var(--arcade-green-soft);
+        text-shadow: 0 0 6px var(--arcade-green);
+    }
+
+    .page-subtitle {
+        @apply text-gray-300 mb-8;
+    }
+
+    .page-title {
+        @apply text-3xl font-bold text-white mb-2;
+    }
+
+    .profile-avatar {
+        @apply w-24 h-24 rounded-full object-cover;
+        border: 2px solid var(--arcade-green-light);
+        box-shadow: 0 0 12px var(--arcade-green-20);
+    }
+
+    .reaction-box {
+        @apply text-white w-full h-50 rounded-lg flex justify-center items-center text-2xl cursor-pointer;
+    }
+
+
+    .reaction-box.waiting {
+        background: #b91c1c;
+    }
+
+    .reaction-box.ready {
+        background: #16a34a;
+}
+
+    .section-title {
+        @apply text-xl font-bold mb-4;
+        color: var(--arcade-green-light);
+        text-shadow: 0 0 8px var(--arcade-green);
+    }
+
+    .status-badge {
+        @apply px-3 py-1 rounded text-xs font-bold inline-block;
+        border: 1px solid var(--arcade-green-light);
+        box-shadow: 0 0 6px var(--arcade-green-20);
+    }
+
+    .status-active {
+        background: var(--arcade-green-20);
+        color: var(--arcade-green-light);
+    }
+
+    .status-inactive {
+        background: var(--arcade-red-20);
+        color: var(--arcade-red);
+        border-color: var(--arcade-red);
+        box-shadow: 0 0 6px var(--arcade-red-40);
+    }
+
+    .table {
+        @apply w-full max-w-5xl mx-auto p-6;
+        background: var(--arcade-bg);
+        border: 1px solid var(--arcade-green-light);
+        box-shadow: 0 0 10px var(--arcade-green-30);
+        border-radius: 0.5rem;
+    }
+
+   .table-actions {
+        @apply flex gap-2 justify-between;
+    }
+
+    .table-cell {
+        @apply py-2 px-4;
+    }
+
+    .table-header-cell {
+        @apply py-2 px-4 font-semibold text-center;
+        color: var(--arcade-green-light);
+        text-shadow: 0 0 6px var(--arcade-green);
+    }
+
+    .table-inner {
+        @apply w-full text-left text-sm;
+        color: var(--arcade-green-soft);
+        table-layout: fixed;
+        border-collapse: separate;
+        border-spacing: 0 10px;
+    }
+
+    .table-inner td,
+    .table-inner th {
+        border-right: 1px solid var(--arcade-green-20);
+    }
+
+    .table-inner td:last-child,
+    .table-inner th:last-child {
+        border-right: none;
+    }
+
+    .table-row:hover {
+        background: var(--arcade-green-10);
+    }
+
+    .title {
+        @apply text-2xl font-bold tracking-wide;
+        color: var(--arcade-green-light);
+        text-shadow: 0 0 10px var(--arcade-green);
+    }
+}

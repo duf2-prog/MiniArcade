@@ -1,0 +1,8 @@
+{
+  "title": "Registrarse / Iniciar sesión",
+  "name": "Nombre",
+  "email": "Correo electrónico",
+  "password": "Contraseña",
+  "login": "Iniciar sesión",
+  "register": "Registrarse"
+}

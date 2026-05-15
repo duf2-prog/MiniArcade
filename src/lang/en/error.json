@@ -1,0 +1,9 @@
+{
+    "emailAlreadyInUse": "The email address is already in use.",
+    "invalidEmail": "The email address is not valid.",
+    "weakPassword": "The password is too weak.",
+    "userNotFound": "The user was not found.",
+    "wrongPassword": "The password is incorrect.",
+    "tooManyRequests": "Too many requests. Please try again later.",
+    "unknownError": "An unknown error occurred."
+}

@@ -1,0 +1,17 @@
+{
+  "play": "Jugar",
+  "start": "¡Empezar!",
+  "time": "Tiempo",
+  "score": "Puntuación",
+  "finished": "¡Juego terminado!",
+  "scoreSaved": "Tu puntuación ({score}) ha sido guardada.",
+  "playAgain": "Jugar otra vez",
+  "click": "¡CLICA!",
+
+  "clicker_challenger.name": "Clicker Challenger",
+  "clicker_challenger.description": "¿Cuántas veces puedes clicar en 10 segundos?",
+  
+  "reaction_test.name": "Reaction Test",
+  "reaction_test.description": "¿Cómo de rápidos son tus reflejos?",
+  "reaction_test.wait": "Espera..."
+}

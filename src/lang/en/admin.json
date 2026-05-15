@@ -1,0 +1,19 @@
+{
+  "title": "Admin Panel",
+  "users": "Users",
+  "games": "Games",
+  "username": "Username",
+  "email": "Email",
+  "role": "Role",
+  "gameName": "Game name",
+  "description": "Description",
+  "active": "Enabled",
+  "inactive": "Disabled",
+  "actions": "Actions",
+  "enable": "Enable",
+  "disable": "Disable",
+  "makeUser": "Make User",
+  "makeAdmin": "Make Admin",
+  "delete": "Delete",
+  "total": "Total"
+}

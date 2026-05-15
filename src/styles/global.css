@@ -1,0 +1,42 @@
+:root {
+    /* Colores base */
+    --arcade-green: #10b981;
+    --arcade-green-light: #34d399;
+    --arcade-green-soft: #6ee7b7;
+
+    --arcade-bg: #0f172a;
+    --arcade-bg-light: #1e293b;
+
+    --arcade-red: #f87171;
+    --arcade-red-60: rgba(248, 113, 113, 0.6);
+
+    /* 🎮 Nuevos colores usados en el Clicker Challenger */
+    --arcade-yellow: #facc15; /* amarillo arcade */
+    --arcade-cyan: #22d3ee;   /* cian brillante */
+    --arcade-pink: #ec4899;   /* rosa neon */
+
+    /* Transparencias (RGBA) */
+    --arcade-green-05: rgba(16, 185, 129, 0.05);
+    --arcade-green-10: rgba(16, 185, 129, 0.10);
+    --arcade-green-15: rgba(16, 185, 129, 0.15);
+    --arcade-green-20: rgba(16, 185, 129, 0.20);
+    --arcade-green-30: rgba(16, 185, 129, 0.30);
+    --arcade-green-40: rgba(16, 185, 129, 0.40);
+    --arcade-green-50: rgba(16, 185, 129, 0.50);
+
+    /* 🎮 Transparencias nuevas */
+    --arcade-yellow-20: rgba(250, 204, 21, 0.20);
+    --arcade-yellow-40: rgba(250, 204, 21, 0.40);
+
+    --arcade-cyan-20: rgba(34, 211, 238, 0.20);
+    --arcade-cyan-40: rgba(34, 211, 238, 0.40);
+
+    --arcade-pink-20: rgba(236, 72, 153, 0.20);
+    --arcade-pink-40: rgba(236, 72, 153, 0.40);
+
+    /* Transparencias para el fondo */
+    --arcade-bg-05: rgba(15, 23, 42, 0.05);
+    --arcade-bg-10: rgba(15, 23, 42, 0.10);
+    --arcade-bg-20: rgba(15, 23, 42, 0.20);
+    --arcade-bg-60: rgba(15, 23, 42, 0.60);
+}

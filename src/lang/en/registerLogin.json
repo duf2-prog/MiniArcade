@@ -1,0 +1,8 @@
+{
+  "title": "Register / Login",
+  "name": "Nombre",
+  "email": "Email",
+  "password": "Password",
+  "login": "Login",
+  "register": "Register"
+}

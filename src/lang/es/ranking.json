@@ -1,0 +1,12 @@
+{
+  "title": "Ranking",
+  "subtitle": "Consulta las mejores puntuaciones",
+  "searchUser": "Buscar usuario...",
+  "position": "Posición",
+  "player": "Jugador",
+  "game": "Juego",
+  "score": "Puntuación",
+  "date": "Fecha",
+  "filterByGame": "Filtrar por juego",
+  "allGames": "Todos los juegos"
+}

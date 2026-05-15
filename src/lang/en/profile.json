@@ -1,0 +1,10 @@
+{
+  "title": "Profile",
+  "subtitle": "Edit your personal information",
+  "username": "Username",
+  "email": "Email",
+  "avatar": "Avatar (URL)",
+  "creationDate": "Creation Date",
+  "registrationDate": "Registration Date",
+  "myScores": "My Scores"
+}

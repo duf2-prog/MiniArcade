@@ -1,0 +1,10 @@
+{
+  "title": "Perfil",
+  "subtitle": "Edita tu información personal",
+  "username": "Nombre de usuario",
+  "email": "Correo electrónico",
+  "avatar": "Avatar (URL)",
+  "creationDate": "Fecha de creación",
+  "registrationDate": "Fecha de registro",
+  "myScores": "Mis puntuaciones"
+}

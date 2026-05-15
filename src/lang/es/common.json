@@ -1,0 +1,8 @@
+{
+  "loading": "Cargando...",
+  "error": "Ha ocurrido un error",
+  "save": "Guardar",
+  "cancel": "Cancelar",
+  "noData": "No hay datos disponibles",
+  "notFound": "Juego no encontrado"
+}
